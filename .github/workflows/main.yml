@@ -54,7 +54,7 @@ deploy:
 
     steps:
      - name: Deploy to Remote Server
-        uses: 123vidy/ssh-action@v1.2.0
+        uses: appleboy/ssh-action@v1.2.0
         with:
             host: ${{ secrets.REMOTE_HOST }}
             username: ${{ secrets.REMOTE_USER }}
