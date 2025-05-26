@@ -27,8 +27,8 @@ jobs:
     - name: Log in to DockerHub
       uses: docker/login-action@v2
       with:
-        username: ${{ secrets.DOCKER_USERNAME_KEY}}
-        password: ${{ secrets.DOCKER_PASSWORD_KEY}}
+        username: peralavidyasagar@gmail.com
+        password: Sagar@1233
         
 
     - name: Build Docker image
